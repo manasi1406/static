@@ -1,0 +1,21 @@
+1.Create practical6 folder
+2.open with cmd
+3.npm init(create package.json)
+4.code .
+5.create index.json
+
+
+
+6.npm i express --save
+7.create index.js
+  const express=require("express");
+   const app=express();
+  app.use(express.static("public"));
+app.listen(3000,()=>{
+     console.log("server strated");
+});
+
+8.create public folder
+   under create index.html
+9 Run node index.js
+10 on browser localhost:3000
